@@ -1,0 +1,7 @@
+.each-slide > div {
+    background-size: cover;
+    height: 350px;
+  }
+  .header-bg{
+    background-color: rgba(8, 3, 3, 0.623);
+  }
