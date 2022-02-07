@@ -37,7 +37,7 @@ const Feature = () => {
     <section className="container-fluid text-center mt-5">
       <h5 className="text-brand ">FEATURE</h5>
       <p>Lorem ipsum dolor sit amet.</p>
-      <div className="row">
+      <div className="row ">
         {infoData.map((info) => (
           <FeatureCard info={info}></FeatureCard>
         ))}

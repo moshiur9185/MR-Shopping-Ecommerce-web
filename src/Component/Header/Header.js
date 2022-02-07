@@ -9,24 +9,24 @@ const Header = () => {
     <div className="text-white">
       <Slide className="header-bg" easing="ease">
         <div className="each-slide">
-          <div className="row d-flex align-items-center">
-            <div className="col-md-5 ps-5 ms-5">
-              <p className=" fst-italic">
+          <div className="row align-items-center">
+            <div className="col-md-5 ms-md-5 ps-md-5 m-sm-2 text-md-start">
+              <p className="fst-italic">
                 Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elit.
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
               <button className="btn btn-primary">Get Start</button>
             </div>
-            <div className="col-md-6 text-center">
-              <img style={{ width: "200px" }} src={img} alt="#" />
+            <div className="col-md-6 mt-sm-5 text-center">
+              <img style={{ width: "32.42vh" }} src={img} alt="#" />
             </div>
           </div>
         </div>
 
         <div className="each-slide">
-          <div className="row d-flex align-items-center">
-            <div className="col-md-5 ps-5 ms-5">
+        <div className="row align-items-center">
+            <div className="col-md-5 ms-md-5 ps-md-5 m-sm-2 text-md-start">
               <p className=" fst-italic">
                 Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elit.
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
@@ -34,24 +34,26 @@ const Header = () => {
               </p>
               <button className="btn btn-primary">Get Start</button>
             </div>
-            <div className="col-md-6 text-center">
-              <img style={{ width: "200px" }} src={img2} alt="#" />
+            <div className="col-md-6 mt-sm-5 text-center">
+              <img style={{ width: "32.42vh" }} src={img2} alt="#" />
             </div>
           </div>
         </div>
 
         <div className="each-slide">
-          <div className="row d-flex align-items-center">
-            <div className="col-md-5 ps-5 ms-5">
-              <p className=" fst-italic">
-                Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elit.
-                Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
-                ipsum.
+        <div className="row align-items-center">
+            <div className="col-md-5 ms-md-5 ps-md-5 m-sm-2 text-md-start">
+              <p className=" fst-  pt-5">
+                Lorem ipsum dolor sit, amet consectetur adipisicing 
+                <br /> 
+                elit Nobis temporibus molestias eaque aut, 
+                <br /> 
+                eaque aut aperiam ipsum.
               </p>
               <button className="btn btn-primary">Get Start</button>
             </div>
-            <div className="col-md-6 text-center">
-              <img style={{ width: "200px" }} src={img3} alt="#" />
+            <div className="col-md-6 mt-sm-5 text-center">
+              <img style={{ width: "32.42vh" }} src={img3} alt="#" />
             </div>
           </div>
         </div>

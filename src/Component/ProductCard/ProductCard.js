@@ -6,7 +6,7 @@ const ProductCard = ({product}) => {
     <div className="col-md-3 mt-4">
       <div className="card text-white">
         <img className="card-img"  src={product.image} alt=""/>
-        <div className="align-items-center ">
+        <div className="align-items-center pt-2">
         <h6 className="">{product.title}</h6>
 
         </div>

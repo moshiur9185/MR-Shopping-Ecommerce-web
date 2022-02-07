@@ -1,5 +1,5 @@
 import React from "react";
-import "./Products.css"
+import "./Products.css";
 import productImage from "../image/website-design.png";
 import productImage2 from "../image/coding (1).png";
 import productImage3 from "../image/graphic-design.png";
@@ -49,8 +49,8 @@ const Products = () => {
   return (
     <section className="container text-center mt-5">
       <div className="row d-flex align-items-center">
-        <div className="col-md-4 text-md-start text-sm-center mt-4">
-        <img className="thumbnail-img"  src={ProductThumbnail} alt=""/>
+        <div className="col-md-4 thumbnail-img text-md-start text-sm-center mt-4">
+          <img className="" src={ProductThumbnail} alt="" />
         </div>
         <div className="col-md-8">
           <div className="row">
