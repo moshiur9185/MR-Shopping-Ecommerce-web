@@ -8,7 +8,7 @@ import productImage6 from "../image/download (1).png";
 import productImage7 from "../image/download.png";
 import productImage8 from "../image/optimization.png";
 import ProductCard from '../ProductCard/ProductCard';
-import ProductThumbnail from "../image/images.jpg";
+import ProductThumbnail from "../image/web-dev.png";
 
 const SecondProduct = () => {
     const products = [
@@ -55,7 +55,7 @@ const SecondProduct = () => {
             ))}
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 mt-4">
           <img className="thumbnail-img"  src={ProductThumbnail} alt=""/>
           </div>
         </div>
