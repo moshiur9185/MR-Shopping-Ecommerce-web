@@ -55,7 +55,7 @@ const SecondProduct = () => {
             ))}
             </div>
           </div>
-          <div className="col-md-4 mt-4">
+          <div className="col-md-4 mt-4 text-end">
           <img className="thumbnail-img"  src={ProductThumbnail} alt=""/>
           </div>
         </div>

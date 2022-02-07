@@ -49,7 +49,7 @@ const Products = () => {
   return (
     <section className="container text-center mt-5">
       <div className="row d-flex align-items-center">
-        <div className="col-md-4 mt-4">
+        <div className="col-md-4 text-start mt-4">
         <img className="thumbnail-img"  src={ProductThumbnail} alt=""/>
         </div>
         <div className="col-md-8">
