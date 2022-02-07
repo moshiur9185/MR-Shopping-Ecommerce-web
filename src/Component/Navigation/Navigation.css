@@ -1,7 +1,7 @@
 .navigation{
-    background-color: rgba(32, 36, 40);
+    background-color: rgba(98, 98, 98);
     border-radius: .1rem;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.842);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.63);
 }
 .logo{
     font-size: 1.75rem;

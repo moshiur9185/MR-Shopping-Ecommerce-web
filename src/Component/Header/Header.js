@@ -6,7 +6,7 @@ import img2 from "../image/graphic-design.png";
 import img3 from "../image/optimization.png";
 const Header = () => {
   return (
-    <div className="container-fluid text-white">
+    <div className="text-white">
       <Slide className="header-bg" easing="ease">
         <div className="each-slide">
           <div className="row d-flex align-items-center">

@@ -4,12 +4,12 @@ import "./ProductCard.css";
 const ProductCard = ({product}) => {
   return (
     <div className="col-md-3 mt-4">
-      <div className="card bg-dark text-white">
+      <div className="card text-white">
         <img className="card-img"  src={product.image} alt=""/>
-        <h6 className="card-title">{product.title}</h6>
-        {/* <div className="card-body">
-          
-        </div> */}
+        <div className="align-items-center ">
+        <h6 className="">{product.title}</h6>
+
+        </div>
       </div>
     </div>
   );

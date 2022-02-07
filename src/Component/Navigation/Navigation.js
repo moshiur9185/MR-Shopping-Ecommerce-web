@@ -4,7 +4,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 const Navigation = () => {
   return (
-    <div className="container-fluid">
+    <div className="">
       <Navbar className="navigation" variant="dark">
         <Container>
           <Navbar.Brand className="logo" href="/home">XZ</Navbar.Brand>
