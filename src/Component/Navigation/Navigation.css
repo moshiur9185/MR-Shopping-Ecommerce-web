@@ -1,0 +1,12 @@
+.navigation{
+    background-color: rgba(31, 29, 29, 0.836);
+}
+.logo{
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.nav-link{
+    color: #fff !important;
+}
