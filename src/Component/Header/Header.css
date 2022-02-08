@@ -8,8 +8,6 @@
     background-color: rgb(127, 127, 127);
   }
  .default-nav{
+    margin: 1rem;
     background-color: rgba(255, 222, 173, 0) !important;
-  }
-  .header-text{
-    /* margin-left: 4rem */
   }

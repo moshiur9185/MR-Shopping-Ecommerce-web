@@ -23,6 +23,22 @@ const Header = () => {
             </div>
           </div>
         </div>
+        
+        <div className="each-slide">
+          <div className="row align-items-center">
+            <div className="col-md-5 ms-md-5 ps-md-5 m-sm-2 text-md-start">
+              <p className="fst-italic">
+                Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elit.
+                Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
+                ipsum.
+              </p>
+              <button className="btn btn-primary">Get Start</button>
+            </div>
+            <div className="col-md-6 mt-sm-5 text-center">
+              <img style={{ width: "32.42vh" }} src={img3} alt="#" />
+            </div>
+          </div>
+        </div>
 
         <div className="each-slide">
           <div className="row align-items-center">
@@ -40,23 +56,6 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="each-slide">
-          <div className="row align-items-center">
-            <div className="col-md-5 ms-md-5 ps-md-5 text-md-start">
-              <p className=" fst-italic  pt-5">
-                Lorem ipsum dolor sit, amet consectetur adipisicing
-                <br />
-                elit Nobis temporibus molestias eaque aut,
-                <br />
-                eaque aut aperiam ipsum.
-              </p>
-              <button className="btn btn-primary">Get Start</button>
-            </div>
-            <div className="col-md-6 mt-sm-5 text-center">
-              <img style={{ width: "32.42vh" }} src={img3} alt="#" />
-            </div>
-          </div>
-        </div>
       </Slide>
     </div>
   );
