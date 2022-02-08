@@ -1,10 +1,27 @@
-.card-container{
-
-}
 .card-img{
     height: 14vh;
 }
 .card{
     height: 100%;
-    background-color: rgb(98, 98, 98);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
+    background-color: #DBD0C0;
+}
+.card-title{
+    color: #2EB086;
+}
+.card-body{
+    padding: 0;
+    margin-bottom: 10px;
+}
+.card-body button{
+    padding : 3px 4px !important;
+    color: #E46666;
+}
+.card-body button:hover{
+    color: #2EB086;
+    border: 1px solid #ffff;
+}
+.price{
+ color:#E46666;
 }

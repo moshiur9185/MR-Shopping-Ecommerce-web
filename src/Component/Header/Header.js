@@ -7,7 +7,7 @@ import img3 from "../image/optimization.png";
 const Header = () => {
   return (
     <div className="text-white">
-      <Slide className="header-bg py-5" easing="ease">
+      <Slide className="header-bg py-5" >
         <div className="each-slide">
           <div className="row align-items-center">
             <div className="col-md-5 ms-md-5 ps-md-5 m-sm-2 text-md-start">
@@ -16,7 +16,7 @@ const Header = () => {
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
-              <button className="btn btn-primary">Get Start</button>
+              <button className="btn header-btn">Get Start</button>
             </div>
             <div className="col-md-6   text-center">
               <img style={{ width: "32.42vh" }} src={img} alt="#" />
@@ -32,7 +32,7 @@ const Header = () => {
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
-              <button className="btn btn-primary">Get Start</button>
+              <button className="btn header-btn">Get Start</button>
             </div>
             <div className="col-md-6   text-center">
               <img style={{ width: "32.42vh" }} src={img3} alt="#" />
@@ -48,7 +48,7 @@ const Header = () => {
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
-              <button className="btn btn-primary">Get Start</button>
+              <button className="btn header-btn">Get Start</button>
             </div>
             <div className="col-md-6   text-center">
               <img style={{ width: "32.42vh" }} src={img2} alt="#" />

@@ -46,7 +46,7 @@ const SecondProduct = () => {
     },
   ];
   return (
-    <section className="container text-center my-5">
+    <section className="container-fluid text-center my-5">
       <div className="row d-flex align-items-center">
         <div className="col-md-8">
           <div className="row">
@@ -55,8 +55,8 @@ const SecondProduct = () => {
             ))}
           </div>
         </div>
-        <div className="col-md-4 mt-4 thumbnail-img text-sm-center text-md-end">
-          <img className="" src={ProductThumbnail} alt="" />
+        <div className="col-md-4 mt-4 thumbnail-img ">
+          <img src={ProductThumbnail} alt="" />
         </div>
       </div>
     </section>

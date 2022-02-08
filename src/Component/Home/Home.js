@@ -9,7 +9,6 @@ import SecondProduct from "../SecondProduct/SecondProduct";
 const Home = () => {
   return (
     <div>
-      {/* <Navigation /> */}
       <Header />
       <Feature />
       <div className="text-center mt-5">

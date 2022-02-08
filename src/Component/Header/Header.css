@@ -4,8 +4,16 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
+  .header-btn{
+    background: #FF7272;
+    color: #fff;
+  }
+  .header-btn:hover{
+    color: #fff !important;
+    border: 1px solid #ffffff;
+  }
   .header-bg{
-    background-color: rgb(127, 127, 127);
+    background-color: #2EB086;
   }
  .default-nav{
     margin: 1rem;
