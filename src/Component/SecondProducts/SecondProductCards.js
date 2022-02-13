@@ -1,19 +1,20 @@
 import React from "react";
-import "./ProductCard.css";
+import "./SecondProductCards.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
-const ProductCard = ({ product }) => {
+
+const SecondProductCards = ({product}) => {
   return (
-    <div className="col-lg-3 col-md-4 col-sm-6 mt-4">
+    <div className="col-md-3 mt-4">
       <div className="cards ">
-        <div className="snap-center card-imgs">
+      <div className="snap-center card-imgs">
           <img className="center" src={product.image} alt=""/>
         </div>
         <div className="align-items-center text-center pt-2">
           <h6 className="card-title">{product.title}</h6>
         </div>
-        <div className="card-bodys px-2">
+        <div className="card-body px-2">
           <span className="fw-bold price">{product.price}</span>
           <button className="btn float-end">
             <span>
@@ -26,4 +27,4 @@ const ProductCard = ({ product }) => {
   );
 };
 
-export default ProductCard;
+export default SecondProductCards;

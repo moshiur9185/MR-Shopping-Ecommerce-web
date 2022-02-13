@@ -7,7 +7,7 @@ const Navigation = () => {
     <div className="">
       <Navbar className="navigation" expand="lg">
         <Container>
-          <Navbar.Brand className="logo" href="/home">XZ</Navbar.Brand>
+          <Navbar.Brand className="logo fst-italic" href="/home">MR-Shopping</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-md-auto">
