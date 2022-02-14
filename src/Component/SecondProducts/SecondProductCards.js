@@ -6,7 +6,7 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const SecondProductCards = ({product}) => {
   return (
-    <div className="col-md-3 mt-4">
+    <div className="col-lg-3 col-md-4 col-sm-6 mt-4">
       <div className="cards ">
       <div className="snap-center card-imgs">
           <img className="center" src={product.image} alt=""/>

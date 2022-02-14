@@ -5,7 +5,7 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 const ThirdProductCards = ({ product }) => {
   return (
-    <div className="col-md-3 mt-4">
+    <div className="col-lg-3 col-md-4 col-sm-6 mt-4">
       <div className="cards ">
       <div className="snap-center card-imgs">
           <img className="center" src={product.image} alt=""/>
@@ -14,7 +14,7 @@ const ThirdProductCards = ({ product }) => {
           <h6 className="card-title">{product.title}</h6>
         </div>
         <div className="card-body px-2">
-          <span className="fw-bold price">$150</span>
+          <span className="fw-bold price">{product.price}</span>
           <button className="btn float-end">
             <span>
               <FontAwesomeIcon icon={faShoppingCart} /> Buy Now

@@ -1,13 +1,5 @@
 import React from 'react';
 import "./ThirdProductCards.css";
-import productImage from "../image/website-design.png";
-import productImage2 from "../image/coding (1).png";
-import productImage3 from "../image/graphic-design.png";
-import productImage4 from "../image/web-design.png";
-import productImage5 from "../image/images (1).jpg";
-import productImage6 from "../image/download (1).png";
-import productImage7 from "../image/download.png";
-import productImage8 from "../image/optimization.png";
 import ThirdProductCards from './ThirdProductCards';
 
 
@@ -16,36 +8,45 @@ import ThirdProductCards from './ThirdProductCards';
 const ThirdProducts = () => {
     const products = [
         {
-          title: "product 1",
-          image: productImage,
+          title: "Winter Hoodie",
+          image: "https://static-01.daraz.com.bd/p/d806ee53278b61da248c503135fed63b.jpg",
+          price: "380 TK",
         },
         {
-          title: "product 2",
-          image: productImage2,
+          title: "Cotton T-Shirt",
+          image: "https://static-01.daraz.com.bd/p/553ab5eabd6968388f9a63192e1a9331.jpg",
+          price: "250 TK"
         },
         {
-          title: "product 3",
-          image: productImage3,
+          title: "Cotton T-Shirt",
+          image: "https://static-01.daraz.com.bd/p/4769515a39ca1481b04db7c7e5257a22.png",
+          price: "350 TK"
         },
         {
-          title: "product 4",
-          image: productImage4,
+          title: "Geans Pant",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwlFy5syXv9kZ24hDi7_o9WCaCdGmC4eC3zw&usqp=CAU",
+          price: "1,200 TK"
         },
         {
-          title: "product 5",
-          image: productImage5,
+          title: "Blazer",
+          image: "https://freepngimg.com/thumb/blazer/7-2-blazer-png-image.png",
+          price: "7,500 TK"
         },
         {
-          title: "product 6",
-          image: productImage6,
+          title: "Sunglass",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbNRGswq0cTAuAfJj3ItgEjnr5Y4REFb62A6lfW4vMiVlOSpRk80TiBwcTHAIYcVy0lLs&usqp=CAU",
+          price: "350 TK"
+        },
+
+        {
+          title: "Sleeve Hoodie",
+          image: "https://static-01.daraz.com.bd/p/c9a103b972b37021162ae76b9ff0cd3f.jpg",
+          price: "360 TK"
         },
         {
-          title: "product 7",
-          image: productImage7,
-        },
-        {
-          title: "product 8",
-          image: productImage8,
+          title: "Tai 1P",
+          image: "https://sapnemedekhna.info/wp-content/uploads/2020/09/Sapne-Me-Tai-Dekhna-1.jpg",
+          price: "280 TK"
         },
       ];
     return (

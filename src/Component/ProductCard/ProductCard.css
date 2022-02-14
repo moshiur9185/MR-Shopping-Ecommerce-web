@@ -5,7 +5,7 @@
 .card-imgs img{
   height: 100%;
   object-fit: center;
-  filter: saturate(300%);
+  /* filter: saturate(300%); */
 }
 .center {
   display: block;

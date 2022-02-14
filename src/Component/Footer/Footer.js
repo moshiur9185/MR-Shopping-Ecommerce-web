@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container-fluid">
             <div className="row footer mt-5 p-5">
                 <div className="text-center ">
-                    <small>© {(new Date()).getFullYear()} XZ. All Rights Reserved</small>
+                    <small>© {(new Date()).getFullYear()} MR-SHOPPING. All Rights Reserved</small>
                     <br/>
                     <FontAwesomeIcon className="m-2" icon={faFacebook} size="lg"/>
                     <FontAwesomeIcon className="m-2" icon={faTwitter} size="lg"/>

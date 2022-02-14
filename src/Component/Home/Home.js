@@ -1,9 +1,8 @@
 import React from "react";
-import Contact from "../Contact/Contact";
+// import Contact from "../Contact/Contact";
 import Feature from "../Feature/Feature";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-// import Navigation from "../Navigation/Navigation";
 import Product from "../Products/Products";
 import SecondProducts from "../SecondProducts/SecondProducts";
 import ThirdProducts from "../ThirdProducts/ThirdProduct";
@@ -20,7 +19,7 @@ const Home = () => {
       <Product />
       <SecondProducts />
       <ThirdProducts/>
-      <Contact/>
+      {/* <Contact/> */}
       <Footer />
     </div>
   );

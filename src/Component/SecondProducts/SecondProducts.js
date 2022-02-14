@@ -40,7 +40,7 @@ const SecondProducts = () => {
       price: "95 TK"
     },
     {
-      title: "CHASI CHINIGURA RICE 5KG",
+      title: "CHINIGURA RICE 5KG",
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsQXTQwixL73WUqCxOOniVzY63J_GZQ8Dt0rBd4YqiwSKYrAJ1iyNQAhMXUcfgDq9PP9k&usqp=CAU",
       price: "600 TK"
     },
