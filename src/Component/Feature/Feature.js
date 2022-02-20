@@ -24,9 +24,9 @@ const Feature = () => {
     },
   ];
   return (
-    <section className="container-fluid text-center text-muted mt-5">
-      <h5 className="text-brand ">FEATURE</h5>
-      <p>Lorem ipsum dolor sit amet.</p>
+    <section className="container-fluid text-center  mt-5">
+      <h5 className="text-muted">FEATURE</h5>
+      <p className="text-muted">Lorem ipsum dolor sit amet.</p>
       <div className="row ">
         {infoData.map((info) => (
           <FeatureCard info={info}></FeatureCard>

@@ -5,15 +5,16 @@
     padding-bottom: 2rem;
   }
   .header-btn{
-    background: #FF7272;
-    color: #fff;
+    background: #000000;
+    font-weight: bold;
+    color: #fffF;
   }
   .header-btn:hover{
-    color: #fff !important;
-    border: 1px solid #ffffff;
+    color: #ffaf04 !important;
+    border: 1px solid;
   }
   .header-bg{
-    background-color: #2EB086;
+    background-color: #FFBBD2;
   }
  .default-nav{
     margin: 1rem;

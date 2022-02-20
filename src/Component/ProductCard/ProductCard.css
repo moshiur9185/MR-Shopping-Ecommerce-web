@@ -11,31 +11,33 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
-  border: 2px solid #FF7272;
+  border-radius: 10px;
+  width: 100%;;
+  border: 1px solid #FF7272;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
 }
 .cards {
   height: 100%;
   border-radius: 10px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.527);
-  background-color: #72d7ff34;
+  background-color: #000000;
   padding-bottom: 10px;
-  padding-top: 10px;
 }
-.card-bodys {
+.card-body {
   padding: 0;
   margin-bottom: 10px;
 }
-.card-bodys button {
-  padding: 3px 4px !important;
-  background-color: #FF7272 ;
-  color: #ffffff;
+.card-body button {
+  color: #ffffff !important;
+  padding: 2px 3px !important;
+  border: 1px solid white;
+  color: #ffffff !important;
 }
 .card-body button:hover {
-  color: #ffffff;
-  background-color: #2EB086 ;
+  border: 1px solid #ffaf04;
+  font-weight: 450;
+  color: #ffaf04 !important;
 }
 .price {
-  color: #2EB086;
+  color: #ffffffa1 !important;
 }

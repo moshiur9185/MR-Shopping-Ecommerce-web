@@ -3,10 +3,11 @@
     padding: 0 5px;
 }
 .info-info{
-    background-color: #2EB086;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 .info-pink{
-    background-color: #FF7272;
+    background-color: #FFBBD2;
 }
 .info-icon{
     font-size:3em;

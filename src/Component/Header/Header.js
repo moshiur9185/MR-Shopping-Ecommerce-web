@@ -3,17 +3,17 @@ import "./Header.css";
 import { Slide } from "react-slideshow-image";
 
 const styleSheet = {
-  backgroundColor: "#FF7272",
+  backgroundColor: "#ffffff",
   width: "90%",
   height: "100%",
   borderRadius: "10px",
   boxShadow: "5px 5px 10px rgba(0, 0, 0, 0.527)",
-  // filter: "saturate(300%)",
+  filter: "saturate(200%)",
 }
 const Header = () => {
   
   return (
-    <div className="text-white">
+    <div className="text">
       <Slide className="header-bg py-5">
         <div className="each-slide">
           <div className="row align-items-center">

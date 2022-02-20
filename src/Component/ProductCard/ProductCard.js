@@ -10,11 +10,11 @@ const ProductCard = ({ product }) => {
         <div className="snap-center card-imgs">
           <img className="center" src={product.image} alt=""/>
         </div>
-        <div className="align-items-center text-center pt-2">
+        <div className="align-items-center text-center ">
           <h6 className="card-title">{product.title}</h6>
         </div>
-        <div className="card-bodys px-2">
-          <span className="fw-bold price">{product.price}</span>
+        <div className="card-body px-2 pt-3">
+          <small className="fw-bold price">{product.price}</small>
           <button className="btn float-end">
             <span>
               <FontAwesomeIcon icon={faShoppingCart} /> Buy Now

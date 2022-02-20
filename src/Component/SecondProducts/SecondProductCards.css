@@ -1,30 +1,21 @@
-.card-img {
-    /* height: 14vh; */
-    object-fit: cover;
-  }
-  .card {
-    height: 100%;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.527);
-    background-color: #ccfdd800;
-  }
   .card-title {
-    /* color: #ffffff; */
+    color: #ffffff;
   }
-  .card-body {
+  /* .card-body {
     padding: 0;
     margin-bottom: 10px;
   }
   .card-body button {
+    color: #000000 !important;
     padding: 3px 4px !important;
-    background-color: #FF7272 ;
-    color: #ffffff;
+    background-color: #000000 ;
+    color: #ffffff !important;
   }
   .card-body button:hover {
-    color: #ffffff;
-    background-color: #2EB086 ;
+    color: #ffaf04 !important;
+    background-color: #000000 ;
   }
   .price {
-    color: #2EB086;
-  }
+    color: #000000;
+  } */
   
