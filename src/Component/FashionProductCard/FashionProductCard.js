@@ -1,10 +1,9 @@
 import React from "react";
-import "./SecondProductCards.css";
+import "./FashionProductCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
-
-const SecondProductCards = ({product}) => {
+const FashionProductCard = ({ product }) => {
   return (
     <div className="col-lg-3 col-md-4 col-sm-6 mt-4">
       <div className="cards ">
@@ -27,4 +26,4 @@ const SecondProductCards = ({product}) => {
   );
 };
 
-export default SecondProductCards;
+export default FashionProductCard;

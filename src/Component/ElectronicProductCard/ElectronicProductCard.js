@@ -1,9 +1,9 @@
 import React from "react";
-import "./ProductCard.css";
+import "./ElectronicProductCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
-const ProductCard = ({ product }) => {
+const ElectronicProductCard = ({ product }) => {
   return (
     <div className="col-lg-3 col-md-4 col-sm-6 mt-4">
       <div className="cards ">
@@ -26,4 +26,4 @@ const ProductCard = ({ product }) => {
   );
 };
 
-export default ProductCard;
+export default ElectronicProductCard;

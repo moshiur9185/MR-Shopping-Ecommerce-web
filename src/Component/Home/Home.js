@@ -3,9 +3,9 @@ import React from "react";
 import Feature from "../Feature/Feature";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import Product from "../Products/Products";
-import SecondProducts from "../SecondProducts/SecondProducts";
-import ThirdProducts from "../ThirdProducts/ThirdProduct";
+import ElectronicProduct from "../ElectronicProducts/ElectronicProducts";
+import SecondProducts from "../GroceryProducts/GroceryProducts";
+import ThirdProducts from "../FashionProducts/FashionProducts";
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
         <h5>PRODUCTS</h5>
         <p>Lorem ipsum dolor sit amet.</p>
       </div>
-      <Product />
+      <ElectronicProduct />
       <SecondProducts />
       <ThirdProducts/>
       {/* <Contact/> */}

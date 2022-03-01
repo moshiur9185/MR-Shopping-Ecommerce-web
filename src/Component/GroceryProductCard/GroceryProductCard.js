@@ -1,9 +1,10 @@
 import React from "react";
-import "./ThirdProductCards.css";
+import "./GroceryProductCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
-const ThirdProductCards = ({ product }) => {
+
+const GroceryProductCard = ({product}) => {
   return (
     <div className="col-lg-3 col-md-4 col-sm-6 mt-4">
       <div className="cards ">
@@ -26,4 +27,4 @@ const ThirdProductCards = ({ product }) => {
   );
 };
 
-export default ThirdProductCards;
+export default GroceryProductCard;

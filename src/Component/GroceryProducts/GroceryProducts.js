@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import SecondProductCards from "./SecondProductCards";
+import GroceryProductCard from "../GroceryProductCard/GroceryProductCard";
 
-const SecondProducts = () => {
+const GroceryProducts = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     fetch("./groceries.JSON")
@@ -15,7 +15,7 @@ const SecondProducts = () => {
         <div className="col-md-8">
           <div className="row">
             {products.map((product) => (
-              <SecondProductCards product={product} />
+              <GroceryProductCard key={product.id} product={product} />
             ))}
           </div>
         </div>
@@ -27,4 +27,4 @@ const SecondProducts = () => {
   );
 };
 
-export default SecondProducts;
+export default GroceryProducts;

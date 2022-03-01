@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import "./ThirdProductCards.css";
-import ThirdProductCards from './ThirdProductCards';
+import FashionProductCard from '../FashionProductCard/FashionProductCard';
 
 
 
     
-const ThirdProducts = () => {
+const FashionProducts = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     // fetch("https://mocki.io/v1/65089873-4536-4902-b349-dd04f462a1e9")
@@ -23,7 +22,7 @@ const ThirdProducts = () => {
           <div className="col-md-8">
             <div className="row">
               {products.map((product) => (
-                <ThirdProductCards product={product} />
+                <FashionProductCard key={product.id} product={product} />
               ))}
             </div>
           </div>
@@ -32,4 +31,4 @@ const ThirdProducts = () => {
     );
 };
 
-export default ThirdProducts;
+export default FashionProducts;

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import "./Products.css";
-import ProductCard from "../ProductCard/ProductCard";
+import "./ElectronicProducts.css";
+import ElectronicProductCard from "../ElectronicProductCard/ElectronicProductCard";
 
-const Products = () => {
+const ElectronicProducts = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     fetch('./electronics.JSON')
@@ -23,7 +23,7 @@ const Products = () => {
         <div className="col-md-8">
           <div className="row">
             {products.map((product) => (
-              <ProductCard product={product} />
+              <ElectronicProductCard key={product.id} product={product} />
             ))}
           </div>
         </div>
@@ -32,4 +32,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default ElectronicProducts;
