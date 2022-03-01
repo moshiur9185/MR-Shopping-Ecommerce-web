@@ -5,7 +5,7 @@ import ProductCard from "../ProductCard/ProductCard";
 const Products = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("https://mocki.io/v1/bb629b90-e481-4cc1-ac8e-409c7d9a334c")
+    fetch('./electronics.JSON')
       .then((response) => response.json())
       .then((data) => setProducts(data));
   }, []);

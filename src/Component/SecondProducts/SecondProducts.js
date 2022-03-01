@@ -4,7 +4,7 @@ import SecondProductCards from "./SecondProductCards";
 const SecondProducts = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("https://mocki.io/v1/a059578c-a7be-4ea4-b707-6783dee5a1a2")
+    fetch("./groceries.JSON")
       .then((response) => response.json())
       .then((data) => setProducts(data));
   }, []);

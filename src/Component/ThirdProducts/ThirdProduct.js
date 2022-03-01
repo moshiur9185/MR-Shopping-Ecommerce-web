@@ -8,7 +8,8 @@ import ThirdProductCards from './ThirdProductCards';
 const ThirdProducts = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("https://mocki.io/v1/65089873-4536-4902-b349-dd04f462a1e9")
+    // fetch("https://mocki.io/v1/65089873-4536-4902-b349-dd04f462a1e9")
+    fetch('./fashion.JSON')
       .then((response) => response.json())
       .then((data) => setProducts(data));
   }, []);

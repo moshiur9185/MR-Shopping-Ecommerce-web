@@ -5,7 +5,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 const Navigation = () => {
   return (
     <div className="">
-      <Navbar className="navigation" expand="lg">
+      <Navbar className="navigation " expand="lg">
         <Container>
           <Navbar.Brand className="logo fst-italic" href="/home">MR-Shopping</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
