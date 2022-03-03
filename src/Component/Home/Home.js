@@ -9,10 +9,6 @@ const Home = (props) => {
     <div>
       <Header handleAddToCart={props.handleAddToCart}/>
       <Feature />
-      <div className="text-center mt-5 text-muted">
-        <h5>PRODUCTS</h5>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </div>
       <Products handleAddToCart={props.handleAddToCart}/>
       {/* <Contact/> */}
     </div>

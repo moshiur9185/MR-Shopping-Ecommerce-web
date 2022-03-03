@@ -19,7 +19,6 @@ const ProductDetail = () => {
                 <h5>Price : {price} TK</h5>
                 <p>{detail}</p>
             </div>
-
         </div>
     );
 };
