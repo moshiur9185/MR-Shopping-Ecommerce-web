@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
+// import { getStoredCart } from '../../utilities/fakedb';
 import FashionProductCard from '../FashionProductCard/FashionProductCard';
 
 
 
     
-const FashionProducts = () => {
+const FashionProducts = (props) => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     // fetch("https://mocki.io/v1/65089873-4536-4902-b349-dd04f462a1e9")
@@ -12,6 +13,17 @@ const FashionProducts = () => {
       .then((response) => response.json())
       .then((data) => setProducts(data));
   }, []);
+
+  // useEffect(() => {
+  //   //getStoredCart from fakeDb
+  //   if (products.length) {
+  //     const savedCart = getStoredCart();
+  //     for (const id in savedCart) {
+  //       const cartProduct = products.find(product => product.id === id);
+  //       console.log(id, cartProduct);
+  //     }
+  //   }
+  // }, [products])
   
     return (
         <section className="container-fluid">
@@ -22,7 +34,7 @@ const FashionProducts = () => {
           <div className="col-md-8">
             <div className="row">
               {products.map((product) => (
-                <FashionProductCard key={product.id} product={product} />
+                <FashionProductCard key={product.id} product={product} handleAddToCart={props.handleAddToCart}/>
               ))}
             </div>
           </div>

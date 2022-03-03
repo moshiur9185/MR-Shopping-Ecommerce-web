@@ -8,16 +8,19 @@ import FeatureCard from "./FeatureCard";
 const Feature = () => {
   const infoData = [
     {
+      id: 1,
       title: "Electronics",
       icon: electronic,
       background: "info",
     },
     {
+      id: 2,
       title: "Groceries",
       icon: groceries,
       background: "pink",
     },
     {
+      id: 3,
       title: "Men's Fashion",
       icon: fashion,
       background: "info",
@@ -29,7 +32,7 @@ const Feature = () => {
       <p className="text-muted">Lorem ipsum dolor sit amet.</p>
       <div className="row ">
         {infoData.map((info) => (
-          <FeatureCard info={info}></FeatureCard>
+          <FeatureCard key={info.id} info={info}></FeatureCard>
         ))}
       </div>
     </section>

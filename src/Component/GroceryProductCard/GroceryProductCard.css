@@ -1,6 +1,14 @@
   .card-title {
     color: #ffffff;
   }
+  .link{
+    text-decoration: none;
+    color: goldenrod;
+  }
+
+  .link:hover{
+    color : rgba(14, 179, 255, 0.795);
+  }
   /* .card-body {
     padding: 0;
     margin-bottom: 10px;

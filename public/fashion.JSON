@@ -1,50 +1,50 @@
 [
     {
-      "id": 1,
+      "id": "FS1",
       "title": "Winter Hoodie",
       "image": "https://static-01.daraz.com.bd/p/d806ee53278b61da248c503135fed63b.jpg",
-      "price": "380 TK"
+      "price": 380
     },
     {
-      "id": 2,
+      "id": "FS2",
       "title": "Cotton T-Shirt",
       "image": "https://static-01.daraz.com.bd/p/553ab5eabd6968388f9a63192e1a9331.jpg",
-      "price": "250 TK"
+      "price": 250
     },
     {
-      "id": 3,
+      "id": "FS3",
       "title": "Cotton T-Shirt",
       "image": "https://static-01.daraz.com.bd/p/4769515a39ca1481b04db7c7e5257a22.png",
-      "price": "350 TK"
+      "price": 350
     },
     {
-      "id": 4,
+      "id": "FS4",
       "title": "Geans Pant",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwlFy5syXv9kZ24hDi7_o9WCaCdGmC4eC3zw&usqp=CAU",
-      "price": "1,200 TK"
+      "price": 1200
     },
     {
-      "id": 5,
+      "id": "FS5",
       "title": "Blazer",
       "image": "https://freepngimg.com/thumb/blazer/7-2-blazer-png-image.png",
-      "price": "7,500 TK"
+      "price": 7500
     },
     {
-      "id": 6,
+      "id": "FS6",
       "title": "Sunglass",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbNRGswq0cTAuAfJj3ItgEjnr5Y4REFb62A6lfW4vMiVlOSpRk80TiBwcTHAIYcVy0lLs&usqp=CAU",
-      "price": "350 TK"
+      "price": 350
     },
     {
-      "id": 7,
+      "id": "FS7",
       "title": "Sleeve Hoodie",
       "image": "https://static-01.daraz.com.bd/p/c9a103b972b37021162ae76b9ff0cd3f.jpg",
-      "price": "360 TK"
+      "price": 360
     },
     {
-      "id": 8,
+      "id": "FS8",
       "title": "Tai 1p",
       "image": "https://sapnemedekhna.info/wp-content/uploads/2020/09/Sapne-Me-Tai-Dekhna-1.jpg",
-      "price": "280 TK"
+      "price": 280
     }
   ]

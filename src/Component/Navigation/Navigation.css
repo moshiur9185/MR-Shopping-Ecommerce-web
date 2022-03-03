@@ -10,11 +10,12 @@
     padding: 0 !important;
     margin: 0 !important;
 }
-.nav-link{
+.nav{
     color: #fff !important;
     font-weight: 450;
+    text-decoration: none !important;
 }
-.nav-link:hover{
+.nav:hover{
     /* background-color: #ffff; */
     color: #ffaf04 !important;
 }

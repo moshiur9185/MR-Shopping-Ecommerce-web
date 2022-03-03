@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./ElectronicProducts.css";
 import ElectronicProductCard from "../ElectronicProductCard/ElectronicProductCard";
+// import { getStoredCart } from "../../utilities/fakedb";
 
-const ElectronicProducts = () => {
+
+const ElectronicProducts = (props) => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     fetch('./electronics.JSON')
@@ -10,6 +12,17 @@ const ElectronicProducts = () => {
       .then((data) => setProducts(data));
   }, []);
   
+  // useEffect(() => {
+  //   //getStoredCart from fakeDb
+  //   if (products.length) {
+  //     const savedCart = getStoredCart();
+  //     for (const id in savedCart) {
+  //       const cartProduct = products.find(product => product.id === id);
+  //       console.log(id, cartProduct);
+  //     }
+  //   }
+  // }, [products])
+
   return (
     <section className="container-fluid">
       <div className="row d-flex align-items-center">
@@ -23,7 +36,7 @@ const ElectronicProducts = () => {
         <div className="col-md-8">
           <div className="row">
             {products.map((product) => (
-              <ElectronicProductCard key={product.id} product={product} />
+              <ElectronicProductCard key={product.id} product={product} handleAddToCart={props.handleAddToCart}/>
             ))}
           </div>
         </div>
