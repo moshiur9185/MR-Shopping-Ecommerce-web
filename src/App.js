@@ -10,6 +10,8 @@ import { addToDb, getStoredCart } from './utilities/fakedb';
 import ProductDetail from './Component/ProductDetail/ProductDetail';
 import Products from './Component/Products/Products';
 import Contact from './Component/Contact/Contact';
+import Footer from "./Component/Footer/Footer";
+import Blogs from './Component/Blogs/Blogs';
 
 function App() {
 
@@ -65,8 +67,10 @@ function App() {
           <Route exact path="/cart" element={<Cart cart={cart}/>} />
           <Route exact path="/products" element={<Products />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/blogs" element={<Blogs />} />
           <Route exact path="/product/:title/:id" element={<ProductDetail />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

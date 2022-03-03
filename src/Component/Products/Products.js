@@ -9,6 +9,7 @@ const Products = (props) => {
             <ElectronicProducts handleAddToCart={props.handleAddToCart} />
             <GroceryProducts handleAddToCart={props.handleAddToCart} />
             <FashionProducts handleAddToCart={props.handleAddToCart} />
+            
         </div>
     );
 };
