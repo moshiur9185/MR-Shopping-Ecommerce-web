@@ -5,7 +5,7 @@ import GroceryProducts from '../GroceryProducts/GroceryProducts';
 
 const Products = (props) => {
     return (
-        <div>
+        <div className="pb-5">
             <div className="text-center mt-5 text-muted">
                 <h5>PRODUCTS</h5>
                 <p>Lorem ipsum dolor sit amet.</p>

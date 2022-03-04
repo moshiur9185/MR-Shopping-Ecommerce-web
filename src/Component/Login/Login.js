@@ -43,7 +43,7 @@ const Login = () => {
 
 
     return (
-        <div className="login-container">
+        <div className="login-container ">
             <div className="wrapper">
                 <div className="title">Login Form</div>
                 <form action="#">

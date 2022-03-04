@@ -7,7 +7,7 @@ import { faFacebook, faTwitter, faLinkedin, faInstagram, faYoutube } from "@fort
 const Footer = () => {
     return (
         <div className="container-fluid">
-            <div className="row footer mt-5 p-5">
+            <div className="row footer p-5">
                 <div className="text-center ">
                     <small>© {(new Date()).getFullYear()} MR-SHOPPING. All Rights Reserved</small>
                     <br/>

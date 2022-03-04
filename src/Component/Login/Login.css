@@ -98,9 +98,7 @@ form .content label{
   user-select: none;
   padding-left: 5px;
 }
-form .content .pass-link{
-  color: "";
-}
+
 form .field input[type="submit"]{
   color: #fff;
   border: none;
