@@ -16,7 +16,7 @@ const GroceryProductCard = (props) => {
         </div>
         <div className="align-items-center text-center pt-2">
           <h6 className="card-title">{title}</h6>
-          <Link className="link" to={`/product/${title}/${id}`}>Detail</Link>
+          <Link className="link" to={`/product/${id}`}>Detail</Link>
         </div>
         <div className="card-body px-2 pt-3">
           <small className="fw-bold price">{price} TK</small>

@@ -13,9 +13,9 @@ const ProductDetail = () => {
     const { title, image, price, detail } = electronics.find(product => product.id === id)
     return (
         <div className="container-fluid">
-            <div className="row">
-                <div className="col-md-6 pt-3 "><img style={{ height: "70vh" }} src={image} alt="" /></div>
-                <div className="col-md-5 mt-5 border border-secondary">
+            <div className="flex flex-row">
+                <div className="basis-1/2 pt-3 "><img style={{ height: "70vh" }} src={image} alt="" /></div>
+                <div className="basis-1/3 p-4 mt-4 border-2 border-sky-500">
                     <h3>Product : {title} </h3>
                     <h5>Price : {price} TK</h5>
                     <h6>Description :</h6>

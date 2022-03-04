@@ -3,27 +3,10 @@
   }
   .link{
     text-decoration: none;
-    color: goldenrod;
+    color: #00eeff;
   }
 
   .link:hover{
-    color : rgba(14, 179, 255, 0.795);
+    text-decoration: underline wavy #00eeff 2px;
+    color : #FE385C;
   }
-  /* .card-body {
-    padding: 0;
-    margin-bottom: 10px;
-  }
-  .card-body button {
-    color: #000000 !important;
-    padding: 3px 4px !important;
-    background-color: #000000 ;
-    color: #ffffff !important;
-  }
-  .card-body button:hover {
-    color: #ffaf04 !important;
-    background-color: #000000 ;
-  }
-  .price {
-    color: #000000;
-  } */
-  
