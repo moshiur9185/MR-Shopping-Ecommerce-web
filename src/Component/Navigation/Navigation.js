@@ -18,6 +18,7 @@ const Navigation = (props) => {
               <Link data-replace="Products" className="ml-4 nav" to="/products"><span>Products</span></Link>
               <Link data-replace="Blogs" className=" ml-4 nav" to="/blogs"><span>Blogs</span></Link>
               <Link data-replace="Contacts" className="ml-4 nav" to="/contact"><span>Contacts</span></Link>
+              <Link data-replace="Contacts" className="ml-4 nav" to="/login"><span>Login</span></Link>
               <Link data-replace="Contacts" className="ml-4 nav" to="/cart"><span><FontAwesomeIcon icon={faShoppingCart} /> {props.cart.length}</span></Link>
             </Nav>
           </Navbar.Collapse>
