@@ -7,7 +7,7 @@ import ElectronicProductCard from "../ElectronicProductCard/ElectronicProductCar
 const ElectronicProducts = (props) => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch('./electronics.JSON')
+    fetch('./electronics.json')
       .then((response) => response.json())
       .then((data) => setProducts(data));
   }, []);
