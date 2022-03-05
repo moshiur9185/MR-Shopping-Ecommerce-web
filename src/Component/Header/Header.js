@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import { Slide } from "react-slideshow-image";
+import { Link } from "react-router-dom";
 
 const styleSheet = {
   backgroundColor: "#ffffff",
@@ -23,8 +24,8 @@ const Header = () => {
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
-              <h5 className="fst-italic">45,000 TK</h5>
-              <button className="btn header-btn">Buy Now</button>
+              <h5 className="fst-italic fw-bold">45,000 TK</h5>
+              <Link to="/products"><button className="btn header-btn">Buy Now</button></Link>   
             </div>
             <div className="col-md-6 pt-3 ms-3">
               <img
@@ -39,13 +40,13 @@ const Header = () => {
         <div className="each-slide">
           <div className="row align-items-center">
             <div className="col-md-5 ms-md-5 ps-md-5 m-sm-2 text-md-start">
-              <p className="fst-italic">
+              <p className="fst-italic ">
                 Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elit.
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
-              <h5 className="fst-italic">4,500 TK</h5>
-              <button className="btn header-btn">Buy Now</button>
+              <h5 className="fst-italic fw-bold ">4,500 TK</h5>
+              <Link to="/products"><button className="btn header-btn">Buy Now</button></Link>
             </div>
             <div className="col-md-6 pt-3 ms-3">
               <img
@@ -64,8 +65,8 @@ const Header = () => {
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
-              <h5 className="fst-italic">3,500 TK</h5>
-              <button className="btn header-btn">Buy Now</button>
+              <h5 className="fst-italic fw-bold">3,500 TK</h5>
+              <Link to="/products"><button className="btn header-btn">Buy Now</button></Link>
             </div>
             <div className="col-md-6 pt-3 ms-3">
               <img
