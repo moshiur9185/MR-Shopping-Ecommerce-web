@@ -36,9 +36,12 @@
 .card-body button:hover {
   /* border: 1px solid #FF7272; */
   font-weight: 450;
-  background-color: #FFFF;
-  color: rgb(37, 35, 35) !important;
+  /* background-color: #FFFF; */
+  color: #00ff80 !important;
 }
 .price {
   color: #ffffffa1 !important;
+}
+.card-title{
+  color: #00ff80 !important;
 }

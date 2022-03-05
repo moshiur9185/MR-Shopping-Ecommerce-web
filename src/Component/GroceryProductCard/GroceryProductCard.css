@@ -3,10 +3,10 @@
   }
   .link{
     text-decoration: none;
-    color: #00eeff;
+    color: #ff6600;
   }
 
   .link:hover{
-    text-decoration: underline wavy #00eeff 2px;
-    color : #ffffffa1;
+    text-decoration: underline wavy #ff6600 2px;
+    color : #00ff80;
   }

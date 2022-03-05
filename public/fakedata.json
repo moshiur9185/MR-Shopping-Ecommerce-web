@@ -1,0 +1,170 @@
+[
+    {
+        "id": "GC1",
+        "title": "Soyabean Oil 5L",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://images.othoba.com/images/thumbs/0053865_rupchanda-soyabean-oil-5ltr.jpeg",
+        "price": 700
+    },
+    {
+        "id": "GC2",
+        "title": "ACI Sugar 1kg",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://metrogroceryshop.com/wp-content/uploads/2020/03/ACI-Pure-Sugar-1kg.jpg",
+        "price": 80
+    },
+    {
+        "id": "GC3",
+        "title": "ACI Solt 1kg",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "http://ecosoft.illinhost.com/attachments/shop_images/ACI_SAL.jpg",
+        "price": 35
+    },
+    {
+        "id": "GC4",
+        "title": "Rin Powder 2Kg",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://sindabad.com/media/catalog/product/cache/15869ca78e92508fe510db2b345701fc/r/i/rin_bright_2.jpg",
+        "price": 120
+    },
+    {
+        "id": "GC5",
+        "title": "Herpic 500ml",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://5.imimg.com/data5/JB/DI/MY-2327693/harpic-power-plus-500x500.jpg",
+        "price": 120
+    },
+    {
+        "id": "GC6",
+        "title": "Vim Liquid 1L",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://sawdakoribd.com/wp-content/uploads/2020/10/Vim-Dishwashing-Liquid-1Ltr.jpg",
+        "price": 170
+    },
+    {
+        "id": "GC7",
+        "title": "Dove Soap",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://qph.fs.quoracdn.net/main-qimg-e52014bf6273f5e361cf01e5ad53d477-lq",
+        "price": 95
+    },
+    {
+        "id": "GC8",
+        "title": "CHINIGURA RICE 5KG",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsQXTQwixL73WUqCxOOniVzY63J_GZQ8Dt0rBd4YqiwSKYrAJ1iyNQAhMXUcfgDq9PP9k&usqp=CAU",
+        "price": 600
+    },
+    {
+        "id": "ET1",
+        "title": "HP Laptop core i7",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://m.media-amazon.com/images/I/7156VgoIhdL._AC_SL1500_.jpg",
+        "price": 65500
+    },
+    {
+        "id": "ET2",
+        "title": "HP Pavilion core i7",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVUICDSpFmrJ5fh4qXL7kIlaTj1s_CbnG2Hw&usqp=CAU",
+        "price": 55600
+    },
+    {
+        "id": "ET3",
+        "title": "Oppo Reno6 5G",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://www.giztop.com/media/catalog/product/cache/dc206057cdd42d7e34b9d36e347785ca/o/p/oppo_reno6_pro_.jpg",
+        "price": 39900
+    },
+    {
+        "id": "ET4",
+        "title": "Galaxy A52S 5G",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://i.expansys.net/img/b/363437/samsung-galaxy-a52s-5g-dual-sim.jpg",
+        "price": 45500
+    },
+    {
+        "id": "ET5",
+        "title": "Nokia 106",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://i1.wp.com/www.mobilebd.co/wp-content/uploads/2022/02/Nokia-105-Africa-Edition-Official-Image-300x300.png",
+        "price": 1800
+    },
+    {
+        "id": "ET6",
+        "title": "ANC Headphone",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://freshnrebel.com/media/6f/f2/fa/1627375970/8720249800606_1.jpg",
+        "price": 3500
+    },
+    {
+        "id": "ET7",
+        "title": "Microsoft Headphone",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://i.ibb.co/vXWf5tx/download.jpg",
+        "price": 12600
+    },
+    {
+        "id": "ET8",
+        "title": "TENDA AC1200",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://m.media-amazon.com/images/I/51oPXK4V5pL._AC_SL1500_.jpg",
+        "price": 5600
+    },
+    {
+        "id": "FS1",
+        "title": "Winter Hoodie",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://static-01.daraz.com.bd/p/d806ee53278b61da248c503135fed63b.jpg",
+        "price": 380
+    },
+    {
+        "id": "FS2",
+        "title": "Cotton T-Shirt",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://static-01.daraz.com.bd/p/553ab5eabd6968388f9a63192e1a9331.jpg",
+        "price": 250
+    },
+    {
+        "id": "FS3",
+        "title": "Cotton T-Shirt",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://static-01.daraz.com.bd/p/4769515a39ca1481b04db7c7e5257a22.png",
+        "price": 350
+    },
+    {
+        "id": "FS4",
+        "title": "Geans Pant",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwlFy5syXv9kZ24hDi7_o9WCaCdGmC4eC3zw&usqp=CAU",
+        "price": 1200
+    },
+    {
+        "id": "FS5",
+        "title": "Blazer",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://freepngimg.com/thumb/blazer/7-2-blazer-png-image.png",
+        "price": 7500
+    },
+    {
+        "id": "FS6",
+        "title": "Sunglass",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbNRGswq0cTAuAfJj3ItgEjnr5Y4REFb62A6lfW4vMiVlOSpRk80TiBwcTHAIYcVy0lLs&usqp=CAU",
+        "price": 350
+    },
+    {
+        "id": "FS7",
+        "title": "Sleeve Hoodie",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://static-01.daraz.com.bd/p/c9a103b972b37021162ae76b9ff0cd3f.jpg",
+        "price": 360
+    },
+    {
+        "id": "FS8",
+        "title": "Tai 1p",
+        "detail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odit corporis libero totam similique expedita cupiditate accusantium ipsum harum dolorem.",
+        "image": "https://sapnemedekhna.info/wp-content/uploads/2020/09/Sapne-Me-Tai-Dekhna-1.jpg",
+        "price": 280
+    }
+]

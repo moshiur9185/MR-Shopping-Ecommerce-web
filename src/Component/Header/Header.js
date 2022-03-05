@@ -26,7 +26,7 @@ const Header = () => {
               <h5 className="fst-italic">45,000 TK</h5>
               <button className="btn header-btn">Buy Now</button>
             </div>
-            <div className="col-md-6 pt-3  text-center">
+            <div className="col-md-6 pt-3 ms-3">
               <img
                 style={styleSheet}
                 src="https://i.ibb.co/nsRwRDj/71h6-Pp-Gaz9-L-AC-SL1500-ccexpress.png"
@@ -47,7 +47,7 @@ const Header = () => {
               <h5 className="fst-italic">4,500 TK</h5>
               <button className="btn header-btn">Buy Now</button>
             </div>
-            <div className="col-md-6 pt-3  text-center">
+            <div className="col-md-6 pt-3 ms-3">
               <img
                 style={styleSheet}
                 src="https://i.pcmag.com/imagery/reviews/04XmHNXc3c3GXXLimmqLsw4-1..v1609859128.png" alt="#"
@@ -67,7 +67,7 @@ const Header = () => {
               <h5 className="fst-italic">3,500 TK</h5>
               <button className="btn header-btn">Buy Now</button>
             </div>
-            <div className="col-md-6 pt-3  text-center">
+            <div className="col-md-6 pt-3 ms-3">
               <img
                 style={styleSheet}
                 src="https://digitalcontent.api.tesco.com/v2/media/homepage/ec8b2abf-d391-4bfb-89d2-6214d2152549/2249-TescoMobile-PAYG-Stamp-Alcatel-3082X-+Grey.jpeg"
