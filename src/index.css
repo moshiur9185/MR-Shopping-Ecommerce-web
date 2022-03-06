@@ -3,7 +3,7 @@
 @tailwind utilities;
 body {
   margin: 0;
-  background-color: #a8a5a5be !important;
+  background-color: lightgrey !important;
     font-family: 'Roboto Condensed', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
