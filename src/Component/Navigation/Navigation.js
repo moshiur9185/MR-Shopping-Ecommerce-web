@@ -14,7 +14,7 @@ const Navigation = (props) => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-md-auto navbar">
-              <Link data-replace="Home" className="active nav" to="/"><span>Home</span></Link>
+              <Nav.Link data-replace="Home" className="active nav" href="/"><span>Home</span></Nav.Link>
               <Link data-replace="Products" className="ml-4 nav" to="/products"><span>Products</span></Link>
               <Link data-replace="Blogs" className=" ml-4 nav" to="/blogs"><span>Blogs</span></Link>
               <Link data-replace="Contacts" className="ml-4 nav" to="/contact"><span>Contacts</span></Link>
