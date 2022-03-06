@@ -11,16 +11,16 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 10px;
+  border-radius:  10px 0px;
   width: 100%;;
-  border: 1px solid #FF7272;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+  /* border: 1px solid #F44141; */
+  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363); */
 }
 .cards {
   height: 100%;
-  border-radius: 10px;
+  border-radius: 10px 0px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.527);
-  background-color: #000000;
+  background-color: #ffffff;
   padding-bottom: 10px;
 }
 .card-body {
@@ -28,20 +28,18 @@
   margin-bottom: 10px;
 }
 .card-body button {
-  color: #ffffff !important;
   padding: 2px 3px !important;
-  border: 1px solid white;
-  color: #ffffff !important;
+  border: 1px solid #FF4F00;
+  background-color: #e1ebff;
+  color: #FF4F00 !important;
 }
 .card-body button:hover {
-  /* border: 1px solid #FF7272; */
+  border: 1px solid #217F00;
   font-weight: 450;
-  /* background-color: #FFFF; */
-  color: #00ff80 !important;
+  background-color: rgb(255, 255, 255);
+  color: #217F00 !important;
 }
-.price {
-  color: #ffffffa1 !important;
-}
-.card-title{
-  color: #00ff80 !important;
+.price, .card-title{
+  font-weight: 700;
+  color: #000000 !important;
 }

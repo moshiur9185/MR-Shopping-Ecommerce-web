@@ -43,9 +43,9 @@ const Cart = () => {
                 <h6>Shipping : {shipping} TK</h6>
                 <p>Tax : {tax.toFixed(2)} TK</p>
                 <div className="">
-                    <h5 className="border-t-4 border-pink-500 pt-3">Order Total : {grandTotal.toFixed(2)} TK</h5>
+                    <h5 className="border-t-4 border-orange-500 pt-3">Order Total : {grandTotal.toFixed(2)} TK</h5>
                 </div>
-                <button className="border-2 rounded-full border-double border-pink-500 px-2 font-semibold bg-light hover:font-bold">Checkout</button>
+                <button className="border-2 rounded-full border-double border-orange-500 px-2 font-semibold bg-light hover:font-bold">Checkout</button>
             </div>
         </div>
     );

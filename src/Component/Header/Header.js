@@ -25,7 +25,7 @@ const Header = () => {
                 ipsum.
               </p>
               <h5 className="fst-italic fw-bold">45,000 TK</h5>
-              <Link to="/products"><button className="btn header-btn">Buy Now</button></Link>   
+              <Link to="/products"><button className="btn btn-sm header-btn">Buy Now</button></Link>   
             </div>
             <div className="col-md-6 pt-3 ms-3">
               <img
@@ -46,7 +46,7 @@ const Header = () => {
                 ipsum.
               </p>
               <h5 className="fst-italic fw-bold ">4,500 TK</h5>
-              <Link to="/products"><button className="btn header-btn">Buy Now</button></Link>
+              <Link to="/products"><button className="btn btn-sm header-btn">Buy Now</button></Link>
             </div>
             <div className="col-md-6 pt-3 ms-3">
               <img
@@ -66,7 +66,7 @@ const Header = () => {
                 ipsum.
               </p>
               <h5 className="fst-italic fw-bold">3,500 TK</h5>
-              <Link to="/products"><button className="btn header-btn">Buy Now</button></Link>
+              <Link to="/products"><button className="btn btn-sm header-btn">Buy Now</button></Link>
             </div>
             <div className="col-md-6 pt-3 ms-3">
               <img

@@ -4,8 +4,9 @@
     min-height: 60vh;
     max-height: 60vh;
     object-fit: cover;
-    border-radius: .70rem;
-    background-color: #DBD0C0;
+    border-radius: .70rem 0;
+    border: 1px solid #0D9FE0;
+    background-color: #ffffff;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
     
 }

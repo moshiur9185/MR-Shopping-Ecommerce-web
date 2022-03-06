@@ -11,7 +11,7 @@ const FashionProductCard = (props) => {
     <div className="col-lg-3 col-md-4 col-sm-6 mt-4">
       <div className="cards ">
       <div className="snap-center card-imgs">
-          <img className="center" src={image} alt=""/>
+          <img className="center bg-white" src={image} alt=""/>
         </div>
         <div className="align-items-center text-center pt-2">
           <h6 className="card-title">{title}</h6>

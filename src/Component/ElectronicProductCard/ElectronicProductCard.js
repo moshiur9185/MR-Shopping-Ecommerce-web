@@ -17,7 +17,7 @@ const ElectronicProductCard = (props) => {
         <div className="snap-center card-imgs">
           <img className="center" src={image} alt=""/>
         </div>
-        <div className="align-items-center text-center ">
+        <div className="align-items-center text-center pt-2">
           <h6 className="card-title">{title}</h6>
           <Link className="link" to={`/product/${id}`}>Detail</Link>
         </div>
