@@ -31,13 +31,13 @@ const Cart = () => {
 
     return (
         <div style={{ minHeight: "100vh" }} className="container d-flex mt-5">
-            <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-40">
+            <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-48">
                 <div>
                     {
                         cart.map(product => <CartProducts key={product.id} product={product} handlePdRemove={handlePdRemove}></CartProducts>)
                     }
                 </div>
-                <div className="ms-auto">
+                <div className="ml-auto">
                     <h4>Items : {totalQuantity}</h4>
                     <h6>Total before tax : {total.toFixed(2)} TK</h6>
                     <h6>Shipping : {shipping} TK</h6>
