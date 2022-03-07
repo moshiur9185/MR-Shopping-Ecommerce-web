@@ -19,12 +19,12 @@ const Header = () => {
         <div className="each-slide">
           <div className="row align-items-center">
             <div className="col-md-5 ms-md-5 ps-md-5 m-sm-2 text-md-start">
-              <p className="fst-italic">
+              <p className="fst-italic text-white">
                 Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elit.
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
-              <h5 className="fw-bold price">BDT : 45,000 TK</h5>
+              <h5 className="fw-bold price-header">BDT : 45,000 TK</h5>
               <Link to="/products"><button className="btn btn-sm header-btn">Buy Now</button></Link>   
             </div>
             <div className="col-md-6 pt-3 ms-3">
@@ -41,12 +41,12 @@ const Header = () => {
         <div className="each-slide">
           <div className="row align-items-center">
             <div className="col-md-5 ms-md-5 ps-md-5 m-sm-2 text-md-start">
-              <p className="fst-italic ">
+              <p className="fst-italic text-white">
                 Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elit.
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
-              <h5 className="price fw-bold ">BDT : 4,500 TK</h5>
+              <h5 className="price-header fw-bold ">BDT : 4,500 TK</h5>
               <Link to="/products"><button className="btn btn-sm header-btn">Buy Now</button></Link>
             </div>
             <div className="col-md-6 pt-3 ms-3">
@@ -62,12 +62,12 @@ const Header = () => {
         <div className="each-slide">
           <div className="row align-items-center">
             <div className="col-md-5 ms-md-5 ps-md-5 m-sm-2 text-md-start">
-              <p className=" fst-italic">
+              <p className=" fst-italic text-white">
                 Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elit.
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
-              <h5 className="price fw-bold">BDT : 3,500 TK</h5>
+              <h5 className="price-header fw-bold">BDT : 3,500 TK</h5>
               <Link to="/products"><button className="btn btn-sm header-btn">Buy Now</button></Link>
             </div>
             <div className="col-md-6 pt-3 ms-3">

@@ -4,12 +4,11 @@
 }
 .info-info{
     filter: saturate(200%);
-    background-color: #131921;
+    background-color: #0369A1;
     color: #FFFFFF;
 }
 .info-pink{
     background-color: #ffffff;
-    /* color: #FFFFFF; */
 }
 .info-icon{
     font-size:3em;
