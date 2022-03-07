@@ -41,7 +41,7 @@ function App() {
           <Route exact path="/products" element={<Products handleAddToCart = {handleAddToCart}/>} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/blogs" element={<Blogs />} />
-          <Route exact path="/product/:id" element={<ProductDetail />} />
+          <Route exact path="/product/:id" element={<ProductDetail handleAddToCart = {handleAddToCart} />} />
         </Routes>
         <Footer />
       </Router>

@@ -1,43 +1,30 @@
 .card-imgs {
-  height: 17vh;
-  
+  height: 25vh;
 }
 .card-imgs img{
   height: 100%;
   object-fit: center;
-  /* filter: saturate(300%); */
+  filter: saturate(150%);
 }
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   border-radius:  10px 0px;
-  width: 100%;;
-  /* border: 1px solid #F44141; */
-  /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363); */
+  width: 100%;
 }
 .cards {
   height: 100%;
   border-radius: 10px 0px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.527);
   background-color: #ffffff;
   padding-bottom: 10px;
+}
+.cards:hover{
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.527);
 }
 .card-body {
   padding: 0;
   margin-bottom: 10px;
-}
-.card-body button {
-  padding: 2px 3px !important;
-  border: 1px solid #FF4F00;
-  background-color: #e1ebff;
-  color: #FF4F00 !important;
-}
-.card-body button:hover {
-  border: 1px solid #217F00;
-  font-weight: 450;
-  background-color: rgb(255, 255, 255);
-  color: #217F00 !important;
 }
 .price, .card-title{
   font-weight: 700;

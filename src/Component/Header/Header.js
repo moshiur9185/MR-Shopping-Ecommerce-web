@@ -8,7 +8,7 @@ const styleSheet = {
   width: "90%",
   height: "100%",
   borderRadius: "10px",
-  boxShadow: "5px 5px 10px rgba(0, 0, 0, 0.527)",
+  boxShadow: "3px 3px 3px rgba(0, 0, 0, 0.527)",
   filter: "saturate(200%)",
 }
 const Header = () => {
@@ -24,11 +24,12 @@ const Header = () => {
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
-              <h5 className="fst-italic fw-bold">45,000 TK</h5>
+              <h5 className="fst-italic fw-bold">BDT : 45,000 TK</h5>
               <Link to="/products"><button className="btn btn-sm header-btn">Buy Now</button></Link>   
             </div>
             <div className="col-md-6 pt-3 ms-3">
               <img
+              className="hover:scale-105 transition duration-300 ease-in-out"
                 style={styleSheet}
                 src="https://i.ibb.co/nsRwRDj/71h6-Pp-Gaz9-L-AC-SL1500-ccexpress.png"
                 alt="#"
@@ -45,11 +46,12 @@ const Header = () => {
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
-              <h5 className="fst-italic fw-bold ">4,500 TK</h5>
+              <h5 className="fst-italic fw-bold ">BDT : 4,500 TK</h5>
               <Link to="/products"><button className="btn btn-sm header-btn">Buy Now</button></Link>
             </div>
             <div className="col-md-6 pt-3 ms-3">
               <img
+              className="hover:scale-105 transition duration-300 ease-in-out"
                 style={styleSheet}
                 src="https://i.pcmag.com/imagery/reviews/04XmHNXc3c3GXXLimmqLsw4-1..v1609859128.png" alt="#"
               />
@@ -65,11 +67,12 @@ const Header = () => {
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
-              <h5 className="fst-italic fw-bold">3,500 TK</h5>
+              <h5 className="fst-italic fw-bold">BDT : 3,500 TK</h5>
               <Link to="/products"><button className="btn btn-sm header-btn">Buy Now</button></Link>
             </div>
             <div className="col-md-6 pt-3 ms-3">
               <img
+              className="hover:scale-105 transition duration-300 ease-in-out"
                 style={styleSheet}
                 src="https://digitalcontent.api.tesco.com/v2/media/homepage/ec8b2abf-d391-4bfb-89d2-6214d2152549/2249-TescoMobile-PAYG-Stamp-Alcatel-3082X-+Grey.jpeg"
                 alt="#"

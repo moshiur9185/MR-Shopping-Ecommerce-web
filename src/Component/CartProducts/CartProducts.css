@@ -1,0 +1,13 @@
+.btn-remove .btn {
+    padding: 2px 3px !important;
+    border: 1px solid #FF4F00;
+    background-color: #e1ebff;
+    color: #FF4F00 !important;
+}
+
+.btn-remove .btn:hover {
+    padding: 2px 3px !important;
+    border: 1px solid #FF0015;
+    background-color: #ffffff;
+    color: #FF0015 !important;
+}

@@ -3,7 +3,8 @@
     padding: 0 5px;
 }
 .info-info{
-    background-color: #000000;
+    filter: saturate(200%);
+    background-color: #131921;
     color: #FFFFFF;
 }
 .info-pink{

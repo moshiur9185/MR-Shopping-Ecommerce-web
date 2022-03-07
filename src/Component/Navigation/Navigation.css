@@ -1,5 +1,6 @@
 .navigation{
-    background-color: #000000;
+    filter: saturate(200%);
+    background-color: #131921;
     border-radius: .1rem;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.63);
 }

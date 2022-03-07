@@ -3,12 +3,12 @@
   }
   .link{
     text-decoration: none;
-    color: #0D9FE0;
-    font-size: 18px;
+    /* color: #0D9FE0; */
+    /* font-size: 18px; */
   }
 
-  .link:hover{
+  /* .link:hover{
     text-decoration: underline wavy #217F00 2px;
     font-weight: 550;
     color : #0D9FE0;
-  }
+  } */

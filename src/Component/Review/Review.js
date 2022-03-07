@@ -3,12 +3,12 @@ import image from '../image/dirla9ri9.jpg'
 
 const Review = () => {
     return (
-        <div className=" container-fluid my-5">
+        <div className=" container my-5">
             <div className="text-center my-5">
                 <h4 className="fw-bold">Customer Review</h4>
             </div>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4">
-                <figure className="bg-slate-100 rounded-xl p-3 dark:bg-slate-800">
+                <figure className="bg-sky-100 rounded p-3 dark:bg-sky-700">
                     <img className="w-24 border-2 border-orange-500 h-24 rounded-full mx-auto" src={image} alt="" width="384" height="512" />
                     <div className="pt-3 md:p-3 text-center md:text-left space-y-4">
                         <blockquote>
@@ -17,18 +17,18 @@ const Review = () => {
                             </p>
                         </blockquote>
                         <figcaption className="font-medium inline-block align-text-bottom">
-                            <div className="text-sky-300 dark:text-sky-500">
+                            <div className="text-white rounded dark:bg-slate-800">
                                 Sarah Dayan
                             </div>
-                            <div className="text-slate-500 dark:text-slate-350">
+                            <div className="text-slate-100 dark:text-slate-900">
                                 Staff Engineer, Algolia
                             </div>
                         </figcaption>
                     </div>
                 </figure>
                 
-                <figure className="bg-slate-100 rounded-xl p-3 dark:bg-slate-800">
-                    <img className="w-24 h-24 border-2 border-orange-500 rounded-full mx-auto " src={image} alt="" width="384" height="512" />
+                <figure className="bg-sky-100 rounded p-3 dark:bg-sky-700">
+                    <img className="w-24 border-2 border-orange-500 h-24 rounded-full mx-auto" src={image} alt="" width="384" height="512" />
                     <div className="pt-3 md:p-3 text-center md:text-left space-y-4">
                         <blockquote>
                             <p className="text-md text-white font-medium">
@@ -36,10 +36,10 @@ const Review = () => {
                             </p>
                         </blockquote>
                         <figcaption className="font-medium inline-block align-text-bottom">
-                            <div className="text-sky-500 dark:text-sky-400">
+                            <div className="text-white rounded dark:bg-slate-800">
                                 Sarah Dayan
                             </div>
-                            <div className="text-slate-700 dark:text-slate-500">
+                            <div className="text-slate-100 dark:text-slate-900">
                                 Staff Engineer, Algolia
                             </div>
                         </figcaption>
@@ -47,8 +47,8 @@ const Review = () => {
                 </figure>
 
 
-                <figure className="bg-slate-100 rounded-xl p-3 dark:bg-slate-800 " >
-                    <img className="w-24 h-24 border-2 border-orange-500 rounded-full mx-auto" src={image} alt="" width="384" height="512" />
+                <figure className="bg-sky-100 rounded p-3 dark:bg-sky-700">
+                    <img className="w-24 border-2 border-orange-500 h-24 rounded-full mx-auto" src={image} alt="" width="384" height="512" />
                     <div className="pt-3 md:p-3 text-center md:text-left space-y-4">
                         <blockquote>
                             <p className="text-md text-white font-medium">
@@ -56,10 +56,10 @@ const Review = () => {
                             </p>
                         </blockquote>
                         <figcaption className="font-medium inline-block align-text-bottom">
-                            <div className="text-sky-500 dark:text-sky-400">
+                            <div className="text-white rounded dark:bg-slate-800">
                                 Sarah Dayan
                             </div>
-                            <div className="text-slate-700 dark:text-slate-500">
+                            <div className="text-slate-100 dark:text-slate-900">
                                 Staff Engineer, Algolia
                             </div>
                         </figcaption>
