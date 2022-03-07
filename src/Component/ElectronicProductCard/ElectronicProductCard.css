@@ -26,7 +26,11 @@
   padding: 0;
   margin-bottom: 10px;
 }
-.price, .card-title{
+.card-title{
   font-weight: 700;
   color: #000000 !important;
+}
+
+.price{
+  color: #FF4F00;
 }

@@ -11,11 +11,9 @@
     border: 1px solid #FF4F00;
   }
   .header-bg{
-    background-image: linear-gradient(lightblue, rgba(195, 219, 228, 0.74));
+    background-image: linear-gradient(rgb(118, 217, 250), rgba(0, 187, 255, 0.74));
   }
  .default-nav{
     margin: 1rem;
-    width: 1.2rem !important;
-    height: 2rem !important;
     background-color: rgba(255, 222, 173, 0) !important;
   }
