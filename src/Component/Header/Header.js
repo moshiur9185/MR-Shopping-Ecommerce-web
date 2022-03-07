@@ -24,7 +24,7 @@ const Header = () => {
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
-              <h5 className="fst-italic fw-bold">BDT : 45,000 TK</h5>
+              <h5 className="fw-bold price">BDT : 45,000 TK</h5>
               <Link to="/products"><button className="btn btn-sm header-btn">Buy Now</button></Link>   
             </div>
             <div className="col-md-6 pt-3 ms-3">
@@ -46,7 +46,7 @@ const Header = () => {
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
-              <h5 className="fst-italic fw-bold ">BDT : 4,500 TK</h5>
+              <h5 className="price fw-bold ">BDT : 4,500 TK</h5>
               <Link to="/products"><button className="btn btn-sm header-btn">Buy Now</button></Link>
             </div>
             <div className="col-md-6 pt-3 ms-3">
@@ -67,7 +67,7 @@ const Header = () => {
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
                 ipsum.
               </p>
-              <h5 className="fst-italic fw-bold">BDT : 3,500 TK</h5>
+              <h5 className="price fw-bold">BDT : 3,500 TK</h5>
               <Link to="/products"><button className="btn btn-sm header-btn">Buy Now</button></Link>
             </div>
             <div className="col-md-6 pt-3 ms-3">
