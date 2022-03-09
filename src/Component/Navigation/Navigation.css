@@ -9,7 +9,7 @@
     font-weight: bold;
     color: #FF4F00 !important;
     padding: 0 !important;
-    margin: 0 !important;
+    margin-right: auto !important;
 }
 .nav{
     background-color: rgba(194, 198, 199, 0.432);
@@ -32,4 +32,7 @@
 .navbar-toggler-icon{
     background-color: rgb(255, 255, 255) !important;
     border-radius: 5px;
+}
+.navbar{
+    justify-content: end !important;
 }

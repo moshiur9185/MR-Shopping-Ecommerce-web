@@ -6,13 +6,15 @@ import { useParams } from 'react-router-dom';
 import allProducts from '../fakedata/fakedata.json';
 const ProductDetail = (props) => {
     const { id } = useParams();
+    console.log(id)
     // const [product, setProduct] = useState({})
     // useEffect(() => {
     //     fetch(`./electronics.JSON/${id}`)
     //     .then((res) => res.json())
     //     .then((data) => setProduct(data))
     // }, [])
-    const { title, image, price, detail } = allProducts.find(product => product.id === id)
+    const product = allProducts.find(product => product.id === id);
+    const { title, image, price, detail } = product;
     return (
         <div className="container my-5">
             <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-48">
@@ -22,7 +24,7 @@ const ProductDetail = (props) => {
                     <h5>Price : {price} BDT</h5>
                     <h6>Description :</h6>
                     <p>{detail}</p>
-                    <button onClick={() => props.handleAddToCart(props.product)} className="btn float-end">
+                    <button onClick={() => props.handleAddToCart(product)} className="btn float-end">
                         <span>
                             <FontAwesomeIcon icon={faShoppingCart} /> Add Cart
                         </span>

@@ -10,10 +10,9 @@ const Products = (props) => {
                 <h5 className="fw-bold">PRODUCTS</h5>
                 <p className="text-muted ">Lorem ipsum dolor sit amet.</p>
             </div>
-            <ElectronicProducts handleAddToCart={props.handleAddToCart} />
+            <ElectronicProducts  />
             <GroceryProducts handleAddToCart={props.handleAddToCart} />
             <FashionProducts handleAddToCart={props.handleAddToCart} />
-
         </div>
     );
 };

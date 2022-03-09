@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react';
-// import { getStoredCart } from '../../utilities/fakedb';
 import FashionProductCard from '../FashionProductCard/FashionProductCard';
 
 
 
     
-const FashionProducts = (props) => {
+const FashionProducts = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     // fetch("https://mocki.io/v1/65089873-4536-4902-b349-dd04f462a1e9")
@@ -34,7 +33,7 @@ const FashionProducts = (props) => {
           <div className="col-md-8">
             <div className="row">
               {products.map((product) => (
-                <FashionProductCard key={product.id} product={product} handleAddToCart={props.handleAddToCart}/>
+                <FashionProductCard key={product.id} product={product} />
               ))}
             </div>
           </div>
