@@ -9,11 +9,11 @@ import Cart from './Component/Cart/Cart';
 import { addToDb } from './utilities/fakedb';
 import ProductDetail from './Component/ProductDetail/ProductDetail';
 import Products from './Component/Products/Products';
-import Contact from './Component/Contact/Contact';
 import Footer from "./Component/Footer/Footer";
 import Blogs from './Component/Blogs/Blogs';
 import useProducts from './hooks/useProducts';
 import useCart from './hooks/useCart';
+import NotFound from './Component/NotFound/NotFound';
 
 function App() {
 
@@ -39,9 +39,9 @@ function App() {
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/cart" element={<Cart cart={cart}/>} />
           <Route exact path="/products" element={<Products/>} />
-          <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/blogs" element={<Blogs />} />
           <Route exact path="/product/:id" element={<ProductDetail handleAddToCart = {handleAddToCart} />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>

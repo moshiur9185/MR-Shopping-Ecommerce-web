@@ -12,17 +12,6 @@ const FashionProducts = () => {
       .then((response) => response.json())
       .then((data) => setProducts(data));
   }, []);
-
-  // useEffect(() => {
-  //   //getStoredCart from fakeDb
-  //   if (products.length) {
-  //     const savedCart = getStoredCart();
-  //     for (const id in savedCart) {
-  //       const cartProduct = products.find(product => product.id === id);
-  //       console.log(id, cartProduct);
-  //     }
-  //   }
-  // }, [products])
   
     return (
         <section className="container-fluid">
