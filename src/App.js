@@ -14,6 +14,7 @@ import Blogs from './Component/Blogs/Blogs';
 import useProducts from './hooks/useProducts';
 import useCart from './hooks/useCart';
 import NotFound from './Component/NotFound/NotFound';
+import Dashboard from './Component/Dashboard/Dashboard/Dashboard';
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
           <Route exact path="/cart" element={<Cart cart={cart}/>} />
           <Route exact path="/products" element={<Products/>} />
           <Route exact path="/blogs" element={<Blogs />} />
+          <Route exact path="/dashboard" element={<Dashboard />} />
           <Route exact path="/product/:id" element={<ProductDetail handleAddToCart = {handleAddToCart} />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
