@@ -23,7 +23,7 @@ const Navigation = (props) => {
               <Link data-replace="Blogs" className=" ml-4 nav mt-2" to="/blogs"><span>Blogs</span></Link>
               <Link data-replace="Dashboard" className="ml-4 nav mt-2" to="/dashboard"><span>Dashboard</span></Link>
               <Link data-replace="Cart" className="ml-4 nav mt-2" to="/cart"><span><FontAwesomeIcon icon={faShoppingCart} /> {props.cart.length}</span></Link>
-              {user.email ? <a href="/home"><button className="btn btn-brand ml-4 mt-2" onClick={handleSignOut}>Sing Out</button></a> : <a data-replace="Login" href="/login"><button className="btn btn-brand ml-4 mt-2">Login</button></a> }
+              {user.email ? <a href="/home"><button className="btn btn-brand ml-4 mt-2" onClick={handleSignOut}>Sing Out</button></a> : <Link data-replace="Home" to="/login"><button className="btn btn-brand ml-4 mt-2">Login</button></Link> }
             </Nav>
           </Navbar.Collapse>
         </Container>
