@@ -22,7 +22,7 @@ const CartProducts = (props) => {
                            BDT : {price} TK
                         </div>
                         <div className="btn-remove">
-                            <button onClick={() => props.handlePdRemove(id)} className="btn btn-sm fw-bold "><FontAwesomeIcon icon={faTrash} /> Remove</button>
+                            <button onClick={() => props.handlePdRemove(id)} className="btn btn-brand btn-sm fw-bold "><FontAwesomeIcon icon={faTrash} /> Remove</button>
                         </div>
                     </figcaption>
                 </div>

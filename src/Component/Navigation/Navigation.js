@@ -4,8 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import useFirebase from "../../hooks/useFirebase";
+
 
 const Navigation = (props) => {
+
+  const { user, handleSignOut } = useFirebase()
   return (
     <div className="sticky-top">
       <Navbar className="navigation " expand="lg">
@@ -18,10 +22,10 @@ const Navigation = (props) => {
               <Link data-replace="Products" className="ml-4 nav mt-2" to="/products"><span>Products</span></Link>
               <Link data-replace="Blogs" className=" ml-4 nav mt-2" to="/blogs"><span>Blogs</span></Link>
               <Link data-replace="Dashboard" className="ml-4 nav mt-2" to="/dashboard"><span>Dashboard</span></Link>
-              <Link data-replace="Login" className="ml-4 nav mt-2" to="/login"><span>Login</span></Link>
               <Link data-replace="Cart" className="ml-4 nav mt-2" to="/cart"><span><FontAwesomeIcon icon={faShoppingCart} /> {props.cart.length}</span></Link>
+              {user.email ? <a href="/home"><button className="btn btn-brand ml-4 mt-2" onClick={handleSignOut}>Sing Out</button></a> : <a data-replace="Login" href="/login"><button className="btn btn-brand ml-4 mt-2">Login</button></a> }
             </Nav>
-          </Navbar.Collapse> 
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </div>

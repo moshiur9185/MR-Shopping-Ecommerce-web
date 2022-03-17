@@ -15,6 +15,7 @@ import useProducts from './hooks/useProducts';
 import useCart from './hooks/useCart';
 import NotFound from './Component/NotFound/NotFound';
 import Dashboard from './Component/Dashboard/Dashboard/Dashboard';
+import Register from './Component/Login/Register';
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home handleAddToCart = {handleAddToCart}/>} />
           <Route exact path="/login" element={<Login />} />
+          <Route exact path="/register" element={<Register />} />
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/cart" element={<Cart cart={cart}/>} />
           <Route exact path="/products" element={<Products/>} />
