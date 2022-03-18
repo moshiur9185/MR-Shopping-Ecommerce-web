@@ -1,53 +1,58 @@
 import React from 'react';
 import './Login.css';
 import { Link } from 'react-router-dom';
+import useFirebase from '../../hooks/useFirebase';
 
 
 
 const Register = () => {
+    const {setName, error, setEmail, setPassword, handleGoogleSignIn, handleRegister} = useFirebase();
+
+
+    const handleEmail = (e) => {
+        setEmail(e.target.value);
+    }
+    const handleName = (e) => {
+        setName(e.target.value)
+    }
+
+    const handlePassword = (e) => {
+        setPassword(e.target.value);
+    }
 
     return (
         <div className="login-container pt-4">
             <div className="wrapper">
                 <div className="title">Register Form</div>
-                <form action="#">
+                <form onSubmit={handleRegister} action="#">
                     <div className="field">
-                        <input type="text" required />
-                        <label>First Name*</label>
+                        <input onBlur={handleName} type="text" required />
+                        <label>Name*</label>
                     </div>
                     <div className="field">
-                        <input type="text" required />
-                        <label>Last Name*</label>
-                    </div>
-                    <div className="field">
-                        <input type="email" required />
+                        <input onBlur={handleEmail} type="email" required />
                         <label>Email Address*</label>
                     </div>
                     <div className="field">
-                        <input type="password" required />
+                        <input onBlur={handlePassword} type="password" required />
                         <label>Password*</label>
                     </div>
-                    <div className="field">
+                    {/* <div className="field">
                         <input type="password" required />
                         <label>Confirm Password*</label>
+                    </div> */}
+              
+                    <div><p className="text-danger text-center">{error}</p></div>
+                    <div className="field text-center">
+                        <button className="btn btn-login text-white fw-bold w-100">Register</button>
                     </div>
-                    <div className="content">
-                        <div className="checkbox">
-                            <input type="checkbox" id="remember-me" />
-                            <label htmlFor="remember-me">Remember me</label>
-                        </div>
-                        <div className="pass-link"><a href="#">Forgot password?</a></div>
-                    </div>
-                    <div className="field">
-                        <input type="submit" value="Login" />
-                    </div>
-                    <div className="signup-link">Are you a member? <Link to="/login">Sing in now</Link></div>
-                    
                 </form>
+                <div className="signup-link text-center">Are you a member? <Link to="/login">Sing in now</Link></div>
+                    
                 <div className="social-btn text-center pb-5">
                     <p><small>or connect with social sites</small></p>
-                    {/* <button onClick={handleGoogleSingIn} type="button" className="btn btn-outline-danger">Google</button> */}
-                    <button type="button" className="btn btn-outline-primary">Facebook</button>
+                    <button onClick={handleGoogleSignIn} type="button" className="btn btn-outline-danger">Google</button>
+                    {/* <button type="button" className="btn btn-outline-primary">Facebook</button> */}
                     </div>
             </div>
         </div>
