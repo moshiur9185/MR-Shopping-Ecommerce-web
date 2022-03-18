@@ -5,7 +5,7 @@ import useFirebase from '../../hooks/useFirebase';
 
 
 const Login = () => {
-    const {user, setEmail, setPassword, handleGoogleSignIn, handleSignIn, handleResetPass} = useFirebase();
+    const {user, error, setEmail, setPassword, handleGoogleSignIn, handleSignIn, handleResetPass} = useFirebase();
 
 
     const handleEmail = (e) => {
@@ -36,6 +36,7 @@ const Login = () => {
                         </div>
                         <div className="pass-link"><button onClick={handleResetPass} className="text-primary">Forgot password?</button></div>
                     </div>
+                    <div><p className="text-danger text-center">{error}</p></div>
                     <div className="field text-center ">
                         <button type="submit" className="btn btn-login text-white fw-bold w-100">Login</button>
                     </div>  

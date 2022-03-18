@@ -27,7 +27,7 @@ const Register = () => {
                 <form onSubmit={handleRegister} action="#">
                     <div className="field">
                         <input onBlur={handleName} type="text" required />
-                        <label>Name*</label>
+                        <label>Full Name*</label>
                     </div>
                     <div className="field">
                         <input onBlur={handleEmail} type="email" required />

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import initializeAuthentication from "../Firebase/firebase.initialize";
-import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, updateProfile } from "firebase/auth";
 
 initializeAuthentication()
 
@@ -40,12 +40,13 @@ const useFirebase = () => {
             setError("The email address is already in use by another account.")
             return;
         }
-        createUserWithEmailAndPassword(auth, email, password, name)
+        createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;
-                emailVerification()
+                emailVerification();
                 setUser(user);
-                console.log(name);
+                setUserName();
+                // console.log(name);
                 setError('')
                 // alert('User created successfully')
             })
@@ -67,6 +68,12 @@ const useFirebase = () => {
         })
     }
 
+    //name update
+    const setUserName =()=>{
+        updateProfile(auth.currentUser, {displayName: name})
+        .then(result => {})
+    }
+
     //email password sign in
     const handleSignIn = (e) => {
         e.preventDefault();
@@ -74,6 +81,7 @@ const useFirebase = () => {
             .then((result) => {
                 const user = result.user;
                 setUser(user)
+                console.log(user);
                 alert("login successful")
                 // console.log(password);
             }).catch(error => {
