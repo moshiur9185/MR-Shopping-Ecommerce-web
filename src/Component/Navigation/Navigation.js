@@ -26,11 +26,12 @@ const Navigation = (props) => {
             </Nav>
           </Navbar.Collapse>
         </>
-        <div className="pl-4 mt-2 lg:mx-0 md:mx-0 mx-auto">
-          <Link data-replace="Cart" className=" nav-cart " to="/cart"><span><FontAwesomeIcon icon={faShoppingCart} /> {props.cart.length}</span></Link>
-        </div>
+
 
       </Navbar>
+      <div className="pl-4 mt-2 absolute cart-nav">
+        <Link data-replace="Cart" className=" link-cart " to="/cart"><span><FontAwesomeIcon icon={faShoppingCart} /> {props.cart.length}</span></Link>
+      </div>
     </div>
   );
 };

@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 const styleSheet = {
   backgroundColor: "#ffffff",
-  width: "90%",
-  height: "100%",
+  width: "600px",
+  height: "300px",
   borderRadius: "10px",
   boxShadow: "3px 3px 3px rgba(0, 0, 0, 0.527)",
   filter: "saturate(200%)",
@@ -16,9 +16,9 @@ const Header = () => {
   return (
     <div className="text">
       <Slide className="header-bg py-5">
-        <div className="each-slide">
+        <div className="each-slide container">
           <div className="row align-items-center">
-            <div className="col-md-5 ms-md-5 ps-md-5 m-sm-2 text-md-start">
+            <div className="col-md-6 text-md-start">
               <p className="fst-italic text-white">
                 Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elit.
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
@@ -27,7 +27,7 @@ const Header = () => {
               <h5 className="fw-bold price-header">BDT : 45,000 TK</h5>
               <Link to="/products"><button className="btn btn-brand btn-sm header-btn">Buy Now</button></Link>   
             </div>
-            <div className="col-md-6 pt-3 ms-3">
+            <div className="col-md-6 pt-3 ms-auto">
               <img
               className="hover:scale-105 transition duration-300 ease-in-out"
                 style={styleSheet}
@@ -38,9 +38,9 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="each-slide">
+        <div className="each-slide container">
           <div className="row align-items-center">
-            <div className="col-md-5 ms-md-5 ps-md-5 m-sm-2 text-md-start">
+            <div className="col-md-6 text-md-start">
               <p className="fst-italic text-white">
                 Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elit.
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
@@ -49,7 +49,7 @@ const Header = () => {
               <h5 className="price-header fw-bold ">BDT : 4,500 TK</h5>
               <Link to="/products"><button className="btn btn-brand btn-sm header-btn">Buy Now</button></Link>
             </div>
-            <div className="col-md-6 pt-3 ms-3">
+            <div className="col-md-6 pt-3">
               <img
               className="hover:scale-105 transition duration-300 ease-in-out"
                 style={styleSheet}
@@ -59,9 +59,9 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="each-slide">
+        <div className="each-slide container">
           <div className="row align-items-center">
-            <div className="col-md-5 ms-md-5 ps-md-5 m-sm-2 text-md-start">
+            <div className="col-md-6 text-md-start">
               <p className=" fst-italic text-white">
                 Lorem ipsum dolor sit, amet consectetur adipisicing <br /> elit.
                 Nobis temporibus molestias eaque aut, <br /> eaque aut aperiam
@@ -70,7 +70,7 @@ const Header = () => {
               <h5 className="price-header fw-bold">BDT : 3,500 TK</h5>
               <Link to="/products"><button className="btn btn-brand btn-sm header-btn">Buy Now</button></Link>
             </div>
-            <div className="col-md-6 pt-3 ms-3">
+            <div className="col-md-6 pt-3 ">
               <img
               className="hover:scale-105 transition duration-300 ease-in-out"
                 style={styleSheet}

@@ -27,22 +27,30 @@
     color: rgba(255, 255, 255, 0.884) !important;
     border-color: rgba(255, 255, 255, 0.726) !important;
     padding: 2px 2px !important;
+
 }
 
 .navbar-toggler-icon{
     background-color: rgb(255, 255, 255) !important;
     border-radius: 5px;
+    
 }
 .navbar{
     justify-content: end !important;
 }
 
-.nav-cart{
-    padding: 5px;
-    border-radius: 5px ;
-    color: #FF4F00 !important;
+.link-cart{
+    padding: 8.5px;
+    min-width: 150px !important;
+    font-size: 20px;
+    color: #ffffff !important;
     font-weight: 900;
     text-decoration: none !important; 
-    /* position: absolute; */
-    background-color: rgba(194, 198, 199, 0.432);
+    background-color: #0e1a2ad3;
+}
+
+.cart-nav{
+    height: 100px !important;
+    /* width: 100px; */
+    right:0;
 }
