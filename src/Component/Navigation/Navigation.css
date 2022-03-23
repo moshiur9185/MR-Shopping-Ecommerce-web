@@ -36,3 +36,13 @@
 .navbar{
     justify-content: end !important;
 }
+
+.nav-cart{
+    padding: 5px;
+    border-radius: 5px ;
+    color: #FF4F00 !important;
+    font-weight: 900;
+    text-decoration: none !important; 
+    /* position: absolute; */
+    background-color: rgba(194, 198, 199, 0.432);
+}
