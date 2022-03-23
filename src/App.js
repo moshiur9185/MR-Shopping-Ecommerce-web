@@ -16,10 +16,12 @@ import useCart from './hooks/useCart';
 import NotFound from './Component/NotFound/NotFound';
 import Dashboard from './Component/Dashboard/Dashboard/Dashboard';
 import Register from './Component/Login/Register';
+import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './Component/PrivateRoute/PrivateRoute';
 
 function App() {
 
-  
+
   const [products] = useProducts();
   const [cart, setCart] = useCart(products);
 
@@ -33,22 +35,27 @@ function App() {
 
   return (
     <div className="App">
-      <Router>
-        <Navigation cart={cart} />
-        <Routes>
-          <Route exact path="/" element={<Home handleAddToCart = {handleAddToCart}/>} />
-          <Route exact path="/login" element={<Login />} />
-          <Route exact path="/register" element={<Register />} />
-          <Route exact path="/home" element={<Home />} />
-          <Route exact path="/cart" element={<Cart cart={cart}/>} />
-          <Route exact path="/products" element={<Products/>} />
-          <Route exact path="/blogs" element={<Blogs />} />
-          <Route exact path="/dashboard" element={<Dashboard />} />
-          <Route exact path="/product/:id" element={<ProductDetail handleAddToCart = {handleAddToCart} />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <Footer />
-      </Router>
+      <AuthProvider>
+        <Router>
+          <Navigation cart={cart} />
+          <Routes>
+            <Route exact path="/" element={<Home handleAddToCart={handleAddToCart} />} />
+            <Route exact path="/login" element={<Login />} />
+            <Route exact path="/register" element={<Register />} />
+            <Route exact path="/home" element={<Home />} />
+            <Route exact path="/cart" element={<Cart cart={cart} />} />
+            <Route exact path="/products" element={<Products />} />
+
+            <Route path="/*" element={<PrivateRoute />} >
+              <Route path="dashboard" element={<Dashboard />} />
+              <Route exact path="blogs" element={<Blogs />} />
+            </Route>
+            <Route exact path="/product/:id" element={<ProductDetail handleAddToCart={handleAddToCart} />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+          <Footer />
+        </Router>
+      </AuthProvider>
     </div>
   );
 }

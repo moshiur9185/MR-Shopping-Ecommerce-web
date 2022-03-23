@@ -1,5 +1,4 @@
 import React from "react";
-// import Contact from "../Contact/Contact";
 import Feature from "../Feature/Feature";
 import Header from "../Header/Header";
 import Products from "../Products/Products";
@@ -11,7 +10,6 @@ const Home = (props) => {
       <Header handleAddToCart={props.handleAddToCart}/>
       <Feature />
       <Products handleAddToCart={props.handleAddToCart}/>
-      {/* <Contact/> */}
       <Review/>
     </div>
   );

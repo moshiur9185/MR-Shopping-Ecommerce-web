@@ -1,12 +1,12 @@
 import React from 'react';
 import './Login.css';
 import { Link } from 'react-router-dom';
-import useFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
 
 
 
 const Register = () => {
-    const {setName, error, setEmail, setPassword, handleGoogleSignIn, handleRegister} = useFirebase();
+    const {setName, error, setEmail, setPassword, handleGoogleSignIn, handleRegister} = useAuth();
 
 
     const handleEmail = (e) => {

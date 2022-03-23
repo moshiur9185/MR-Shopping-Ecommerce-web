@@ -81,7 +81,7 @@ const useFirebase = () => {
             .then((result) => {
                 const user = result.user;
                 setUser(user)
-                console.log(user);
+                console.log(user  );
                 alert("login successful")
                 // console.log(password);
             }).catch(error => {
@@ -96,6 +96,7 @@ const useFirebase = () => {
         })
     }
 
+    //state change for firebase
     useEffect(() => {
         onAuthStateChanged(auth, user => {
             if (user) {
